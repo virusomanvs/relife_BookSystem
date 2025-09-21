@@ -10,6 +10,7 @@
 |----------|-----|----------|
 | `isShowCraft` | Integer | Показывать ли рецепт в интерфейсе |
 | `isAutoShowIngredients` | Integer | Автоматически показывать ингредиенты |
+| `categoryID` | String | ID категории крафта, если оставить пустым будет отображено во "Все крафты" |
 | `craftItemClassname` | String | Класс создаваемого предмета| 
 | `isAutoFindResults` | Integer | Автоматически находить результаты крафта среди всех крафтов RecipeBase |
 | `CraftHandleName` | Array[String] | Классы крафта если выключен автоматический поиск крафтов| 
