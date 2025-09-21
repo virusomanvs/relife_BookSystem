@@ -6,22 +6,22 @@
 
 ### Основные параметры крафта
 
-| Параметр | Тип | Описание | Обязательный | Значения по умолчанию |
-|----------|-----|----------|-------------|---------------------|
-| `isShowCraft` | Integer | Показывать ли рецепт в интерфейсе | Да | 1 (true) |
-| `isAutoShowIngredients` | Integer | Автоматически показывать ингредиенты | Да | 0 (false) |
-| `craftItemClassname` | String | Класс создаваемого предмета | Да | - |
-| `isAutoFindResults` | Integer | Автоматически находить результаты крафта | Да | 1 (true) |
-| `CraftHandleName` | Array[String] | Названия обработчиков крафта | Да | - |
-| `NeedPerk` | Integer | Требуемый перк (ID) | Да | -1 (не требуется) |
-| `needItemInInventory` | Array | Предметы, требуемые в инвентаре | Нет | [] |
-| `needItemInInventoryCount` | Array | Количество требуемых предметов | Нет | [] |
-| `craftHandleDisplayName` | String | Отображаемое название крафта | Нет | "" |
-| `IngredientsOneIcon` | String | Иконка первого ингредиента | Нет | "" |
-| `IngredientsTwoIcon` | String | Иконка второго ингредиента | Нет | "" |
-| `ignoredCraftToDisplay` | Array[String] | Игнорируемые крафты для отображения | Нет | [] |
-| `ingredientsOneList` | Array[String] | Список первых ингредиентов | Да | - |
-| `ingredientsTwoList` | Array[String] | Список вторых ингредиентов | Да | - |
+| Параметр | Тип | Описание | 
+|----------|-----|----------|
+| `isShowCraft` | Integer | Показывать ли рецепт в интерфейсе |
+| `isAutoShowIngredients` | Integer | Автоматически показывать ингредиенты |
+| `craftItemClassname` | String | Класс создаваемого предмета| 
+| `isAutoFindResults` | Integer | Автоматически находить результаты крафта среди всех крафтов RecipeBase |
+| `CraftHandleName` | Array[String] | Классы крафта если выключен автоматический поиск крафтов| 
+| `NeedPerk` | Integer | Требуемый перк (ID) |
+| `needItemInInventory` | Array | Предметы, требуемые в инвентаре | 
+| `needItemInInventoryCount` | Array | Количество требуемых предметов | 
+| `craftHandleDisplayName` | String | Отображаемое название крафта | 
+| `IngredientsOneIcon` | String | Иконка первого ингредиента | 
+| `IngredientsTwoIcon` | String | Иконка второго ингредиента | 
+| `ignoredCraftToDisplay` | Array[String] | Игнорируемые крафты для отображения | 
+| `ingredientsOneList` | Array[String] | Список первых ингредиентов | 
+| `ingredientsTwoList` | Array[String] | Список вторых ингредиентов | 
 
 ## Пример использования
 
