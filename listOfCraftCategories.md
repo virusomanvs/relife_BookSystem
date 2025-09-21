@@ -6,7 +6,7 @@
 | `categoryTitle` | `string` | Ключ для локализации названия категории. Обычно выглядит как `#STR_...`. Либо прямой перевод |
 | `categoryIcon`  | `string` | Путь к иконке категории. Поддерживается формат `.edds`.                  |
 
-```
+```json
  "listOfCraftCategories": [
         {
             "categoryID": "Cannabis",
