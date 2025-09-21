@@ -11,12 +11,12 @@
         {
             "categoryID": "Cannabis",
             "categoryTitle": "Cannabis",
-            "categoryIcon": "relife_BookSystem/images/craft.edds"
+            "categoryIcon": "relife_Core/images/icons/abstract-002.edds"
         },
         {
             "categoryID": "Other",
             "categoryTitle": "Other",
-            "categoryIcon": "relife_BookSystem/images/craft.edds"
+            "categoryIcon": "relife_Core/images/icons/abstract-001.edds"
         }
     ],
 ```
