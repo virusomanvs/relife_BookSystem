@@ -13,6 +13,7 @@
 | `timeEffect` | Float | Длительность или время воздействия |
 | `diseasesSymptom` | Array[Object] | Массив симптомов заболевания |
 | `diseasesCause` | Array[Object] | Массив причин заболевания |
+| `diseasesHeal` | Array[Object] | Массив способов лечения |
 
 ### Структура симптомов и причин
 
@@ -30,6 +31,11 @@
   "diseasesSymptom": [
     {
       "textList": "Описание симптомов заболевания"
+    }
+  ],
+  "diseasesHeal": [
+    {
+      "textList": "Описание способов лечения заболевания"
     }
   ],
   "diseasesCause": [
