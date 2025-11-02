@@ -6,12 +6,6 @@
 
 ## Структура конфигурации
 
-### Корневой объект
-
-```json
-{
-  "listOfEntity": [...]
-}
 ```
 
 ### Свойства объекта существа
@@ -34,8 +28,7 @@
 ## Пример конфигурации
 
 ```json
-{
-  "listOfEntity": [
+[
     {
       "entityClassname": "Animal_UrsusArctos",
       "entityTitle": "Бурый медведь",
@@ -70,7 +63,6 @@
       "imageEntity": "relife_BookSystem/images/entities/runner_large.edds"
     }
   ]
-}
 ```
 
 ## Примечания по использованию
