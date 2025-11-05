@@ -16,7 +16,7 @@
 | `entityLocation` | String | Места обитания или появления существа |
 | `killInfo` | String | Информация о способах уничтожения и тактике |
 | `entityHealth` | Number | Количество здоровья существа (-1 = будет подтянуто из игры) |
-| `entityPowerType` | Number | Уровень опасности |
+| `entityPowerType` | Number | Тип живоного |
 | `imageSmallEntity` | String | Путь к маленькому изображению существа (иконка) в общем списке |
 | `imageEntity` | String | Путь к большому изображению существа, если указать будет использовано вместо модели превью |
 
@@ -31,7 +31,7 @@
       "entityLocation": "Хвойные и смешанные леса, горные районы",
       "killInfo": "Эффективно против огнестрельного оружия крупного калибра. Избегайте ближнего боя. Уязвим к выстрелам в голову.",
       "entityHealth": 800,
-      "entityPowerType": 4,
+      "entityPowerType":1,
       "imageSmallEntity": "relife_BookSystem/images/entities/bear_small.edds",
       "imageEntity": "relife_BookSystem/images/entities/bear_large.edds"
     },
@@ -42,7 +42,7 @@
       "entityLocation": "Горные склоны, холмистая местность",
       "killInfo": "Легко уничтожается любым оружием. Старайтесь стрелять с дальней дистанции, так как при приближении убегает.",
       "entityHealth": 150,
-      "entityPowerType": 1,
+      "entityPowerType": 2,
       "imageSmallEntity": "relife_BookSystem/images/entities/goat_small.edds",
       "imageEntity": "relife_BookSystem/images/entities/goat_large.edds"
     },
@@ -53,7 +53,7 @@
       "entityLocation": "Городские районы, заброшенные поселения",
       "killInfo": "Уязвим к выстрелам в голову. Атакует в группах. Опасен в ближнем бою из-за высокой скорости.",
       "entityHealth": 120,
-      "entityPowerType": 2,
+      "entityPowerType": 1,
       "imageSmallEntity": "relife_BookSystem/images/entities/runner_small.edds",
       "imageEntity": "relife_BookSystem/images/entities/runner_large.edds"
     }
